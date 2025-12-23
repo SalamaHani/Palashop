@@ -10,7 +10,7 @@ import { SHOPIFY_GRAPHQL_API_ENDPOINT } from "@/types";
 const endpoint = `https://${`palshop-9445.myshopify.com`}${SHOPIFY_GRAPHQL_API_ENDPOINT}`;
 export const client = new GraphQLClient(endpoint, {
   headers: {
-    'X-Shopify-Storefront-Access-Token': '6a58b73538b7b5e95999c1f9b9fd0b8e',
+    'X-Shopify-Storefront-Access-Token': '08f8598a76c5b5e5eeaf77543d5b2d2d',
     'Content-Type': 'application/json',
   },
 });
